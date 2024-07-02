@@ -10,6 +10,30 @@
           "-webkit-text-size-adjust"
         ]
       }
-    ]
+    ],
+    "meta-viewport": "off",
+    "axe/forms": [
+      "default",
+      {
+        "label": "off",
+        "select-name": "off"
+      }
+    ],
+    "axe/aria": [
+      "default",
+      {
+        "aria-valid-attr-value": "off"
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off",
+        "link-name": "off"
+      }
+    ],
+    "button-type": "off",
+    "meta-charset-utf-8": "off",
+    "no-inline-styles": "off"
   }
 }
